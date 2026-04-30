@@ -2,18 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Animated Tittle */
+/* H1 Animated Tittle */
 h1 {
   font-family: 'Helvetica';
   font-size: 72px;
   font-weight:400;
-}
-
-h2 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
-  font-weight: 400;
-  text-decoration: underline;
 }
 
 .tracking-in-contract {
@@ -48,12 +41,40 @@ h2 {
   }
 }
 
-/* DIVS */
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+
+/* DIV WITH QUOTE */
 .Shakespeare-passage {
   max-width: 480px;
   text-align: justify;
   font-size: 20px;
   
+}
+
+/* LINKS */
+.links-layout {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.pdf-1 a:hover , .pdf-2 a:hover , .pdf-3 a:hover , .pdf-4 a:hover , .pdf-5 a:hover , .pdf-6 a:hover , .pdf-7 a:hover , .pdf-8 a:hover , .pdf-9 a:hover , .pdf-10 a:hover , .pdf-11 a:hover , .pdf-12 a:hover {
+    display: inline-block;
+    font-size: 20px;
+    padding: 4px;
+    transition: border-color 0.4s ease-in, padding 0.4s ease;
 }
 
 /* Main Input Boxes */
